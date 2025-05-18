@@ -9,8 +9,8 @@ const About = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
     >
-      <div className="max-w-6xl mx-auto text-center">
-        <h1 className="text-4xl font-bold text-lime-500 mb-6">About Me</h1>
+      <div className="max-w-6xl mx-auto text-center m-[30px]">
+        <h1 className="text-4xl font-bold text-lime-500 mb-6 ">About Me</h1>
         <p className="text-lg text-green-500 leading-relaxed max-w-3xl mx-auto">
           I am a passionate <span className="text-lime-500 font-semibold">Full-Stack Developer</span> with experience in both front-end and back-end development.
           I specialize in creating modern, user-friendly web applications using <span className="text-black font-medium">React</span>, <span className="text-black font-medium">Node.js</span>, and more.

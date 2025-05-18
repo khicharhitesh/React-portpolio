@@ -21,7 +21,7 @@ const skills = [
 export default function Skills() {
   return (
     <section className="min-h-screen bg-white text-black px-6 py-16">
-      <div className="max-w-6xl mx-auto text-center">
+      <div className="max-w-6xl mx-auto text-center m-[40px]">
         <h2 className="text-4xl font-bold text-lime-500 mb-10">My Skills</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
           {skills.map((skill) => (

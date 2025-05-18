@@ -43,7 +43,7 @@ export default function Project() {
     <section className="min-h-screen bg-[#f5f6f8] text-white py-14 px-4 sm:px-6">
       <div className="max-w-6xl mx-auto md:my-20">
         <h1
-          className="text-3xl sm:text-4xl font-bold text-center text-lime-500 mb-10"
+          className="text-3xl sm:text-4xl font-bold text-center text-lime-500 mb-10 m-[30px]"
           data-aos="fade-down"
         >
           My Projects

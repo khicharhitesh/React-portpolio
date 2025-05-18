@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <section className="min-h-screen bg-white text-black px-6 py-16">
-      <div className="max-w-4xl mx-auto text-center">
+      <div className="max-w-4xl mx-auto text-center m-[40px]">
         <h2 className="text-4xl font-bold text-lime-500 mb-8">Contact Me</h2>
         <p className="text-green-400 mb-6">
           I'd love to hear from you. Let's get in touch!
