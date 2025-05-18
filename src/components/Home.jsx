@@ -17,12 +17,16 @@ export default function HomePage() {
     setTimeout(() => setShowPopup(false), 3000); // Auto-close after 3s
   };
 
-
   return (
     <>
-      <section
+      {/* <section
         id="home"
         className=" min-h-screen bg-white flex items-center justify-center px-6 text-black"
+      > */}
+
+      <section
+        id="home"
+        className="pt-48 min-h-screen bg-white flex items-center justify-center px-6 text-black"
       >
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-10 sm:gap-12 items-center m-[40px]">
           {/* Profile Image */}
@@ -112,5 +116,3 @@ function SocialLink({ href, icon }) {
     </a>
   );
 }
-
-
