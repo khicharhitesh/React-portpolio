@@ -19,7 +19,7 @@ function App() {
     // Simulate loading (e.g., fetching user or theme)
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 1500);
+    }, 1000);
     return () => clearTimeout(timer);
   }, []);
 
