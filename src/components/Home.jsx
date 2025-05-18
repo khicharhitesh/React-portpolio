@@ -27,7 +27,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-10 sm:gap-12 items-center m-[40px]">
           {/* Profile Image */}
           <div
-            className="w-full md:w-1/2 flex justify-center"
+            className="w-full md:w-1/2 flex justify-center m-[50px]"
             data-aos="fade-right"
             data-aos-duration="1200"
           >
