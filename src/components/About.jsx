@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Resume from "../assets/Hitesh Resume.pdf (5).pdf (1).pdf"; // Adjust the path as necessary
 
 const About = () => {
   return (
@@ -42,7 +43,7 @@ const About = () => {
         </div>
 
         <button className="mt-8 px-6 py-3 bg-lime-500 text-black font-semibold rounded-lg shadow-md hover:bg-lime-600 transition">
-          <a href="">Download CV</a>
+          <a href={Resume}>Download CV</a>
         </button>
       </div>
     </motion.div>
