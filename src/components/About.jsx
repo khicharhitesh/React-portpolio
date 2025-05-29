@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Resume from "../assets/Hitesh Resume.pdf (5).pdf (1).pdf"; // Adjust the path as necessary
+import Resume from "../assets/Hitesh Resume.pdf (5).pdf (2).pdf"; // Adjust the path as necessary
 
 const About = () => {
   return (
